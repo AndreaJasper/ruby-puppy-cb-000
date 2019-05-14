@@ -10,6 +10,7 @@ class Dog
 
   def self.all
     @@all
+    puts "#{puppy}"
   end
 
 
