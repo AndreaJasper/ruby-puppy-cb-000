@@ -6,11 +6,12 @@ class Dog
   def initialize(puppy)
     @puppy = puppy
     @@all << self
+    puts "#{puppy}"
   end
 
   def self.all
     @@all
-    puts "#{puppy}"
+    
   end
 
 
