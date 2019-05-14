@@ -13,7 +13,6 @@ class Dog
   end
 
   def clear_all
-    if(full?)
       @@all.clear
   end
 
